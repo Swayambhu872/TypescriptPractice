@@ -1,0 +1,10 @@
+"use strict";
+exports.__esModule = true;
+var day2Demo11_1 = require("./day2Demo11");
+var stackObj = new day2Demo11_1.MyStack();
+stackObj.push(5);
+stackObj.push(6);
+stackObj.push(7);
+stackObj.push(8);
+stackObj.push(9);
+console.log(stackObj.getAllItem());
